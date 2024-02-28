@@ -34,7 +34,7 @@ const COMMANDS = [
 
 const getProjects = async () => {
   const data = await fetch(
-    "https://terminal-based-portfolio.vercel.app/api/project"
+    "/api/project"
   )
   const projects= await data.json()
   const projectHTML =
@@ -56,7 +56,7 @@ const getContacts = async () => {
 
 
   const data = await fetch(
-    "https://terminal-based-portfolio.vercel.app/api/contacts"
+    "/api/contacts"
   )
   const contactMediums=await data.json();
   return contactMediums

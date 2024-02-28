@@ -1,5 +1,4 @@
 
-import Cors from "cors"
 
 
 export default function handler(req,res){
