@@ -104,7 +104,7 @@ export const CONTENTS = {
   contact: getContacts,
   resume: () => {
     window.open(
-      "https://drive.google.com/file/d/1nQWkqyAUIQ7S3xZiTD6EXf8zipVSk5Hk/view",
+      "https://drive.google.com/file/d/1B7Cp1fSEsm-OhPh8KEOOUHxE4mYaPmy7/view?usp=sharing",
       "_blank"
     )
     return ""
